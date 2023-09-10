@@ -1,0 +1,45 @@
+
+
+.sort-wrapper {
+
+
+    margin-top: 56px;
+
+}
+
+.sortbyWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px ;
+}
+
+.sort-text {
+    font-size: 18px;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
+    margin-top: 20px;
+}
+
+.tasks-wrap {
+    margin-top: 24px;
+}
+.count-p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.create-button{
+    background-color:var(--color-accent);
+    border-radius: 22px;
+    padding: 18px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    line-height: 0;
+    color: var(--font-color);
+}

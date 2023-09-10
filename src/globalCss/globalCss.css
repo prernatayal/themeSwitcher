@@ -1,0 +1,77 @@
+
+  /* reset all tags  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset all before and after  */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+   /* inherit input's  global values */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    color: var(--font-color);
+  
+  
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  }
+
+
+ p {
+    font-family: 'Source Sans 3', sans-serif;
+
+ }
+
+  /* default value for body   */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  
+  }
+
+  /* globals  theme colors  */
+  /* ------------ */
+  /* light theme  */
+  .theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+ }
+
+ /* dark theme */
+ .theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #243133;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+ }
+
+ .container {
+  width: 1920px;
+  max-width: 95%;
+  margin: auto;
+
+ }
+ 
+ .App{
+  height: 100vh;
+  width: 100vw;
+  background: var(--color-secondary);
+ }

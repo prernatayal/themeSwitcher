@@ -1,0 +1,55 @@
+.dropDown-earpper {
+   max-width: 200px;
+   min-width: fit-content;
+   height: auto;
+   position: relative;
+}
+
+.button {
+  display: flex;
+  border: 1px solid #8e8e8e;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  
+}
+.arrow-down {
+  font-size: 16px;
+}
+
+.dropDown-content {
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  width: 100%;
+  border: 1px solid #8e8e8e;
+  margin-top: 5px;
+  border-radius: 5px;
+
+}
+
+.dropdown-ul {
+
+}
+
+.li{
+   list-style-type: none;
+   padding: 5px 5px;
+   font-size: 16px;
+   
+}
+
+.li:hover {
+  background-color:var(--color-accent);
+}
+
+.icondown {
+width: 16px;
+}
+
+.iconRotate {
+    transform: rotate(180deg);
+}
